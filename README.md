@@ -21,3 +21,6 @@ This project is a Python script designed to find subdomains for a given domain a
 1. Clone this repository to your local machine.
 ```sh
 git clone <repository-url>
+
+cd <project-directory>
+pip install -r requirements.txt

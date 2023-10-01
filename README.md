@@ -32,6 +32,6 @@ Usage
 To run the script, navigate to the project directory in the terminal and run:
 ```$python subdomain_finder.py```
 
-### Follow the on-screen prompt and enter the domain for which you want to find subdomains and scrape public data.
+## Follow the on-screen prompt and enter the domain for which you want to find subdomains and scrape public data.
 
 

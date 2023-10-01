@@ -33,12 +33,20 @@ To run the script, navigate to the project directory in the terminal and run:
 ```$python subdomain_finder.py```
 
 
-## NOTE
-To print restriction from 'robots.txt' add the line
- ```print(f"Skipping {url} due to robots.txt restrictions")``` under `if 'Disallow: /' in robots_response.text:` in function `check_domain`
-AND
-under `except requests.RequestException` insert 
-            ```print(f"Error accessing {url}: {str(e)}")``` 
+## Important Note
+To log restrictions from 'robots.txt', incorporate the following line 
+```
+print(f"Skipping {url} due to robots.txt restrictions")
+
+```
+below `if 'Disallow: /' in robots_response.text:` in the check_domain function.
+
+Additionally, to print errors during the request, insert 
+```
+print(f"Error accessing {url}: {str(e)}")
+```
+under `except requests.RequestException:`
+
 
             
 ## Follow the on-screen prompt and enter the domain for which you want to find subdomains and scrape public data.

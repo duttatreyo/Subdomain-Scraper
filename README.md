@@ -18,12 +18,12 @@ This project is a Python script designed to find subdomains for a given domain a
 
   
 ## Disclaimer
-Use this script responsibly and ethically. Make sure to comply with legal constraints and the terms of service of the websites you are interacting with. Unauthorized or aggressive scanning can lead to IP bans or legal actions.
+> Use this script responsibly and ethically. Make sure to comply with legal constraints and the terms of service of the websites you are interacting with. Unauthorized or aggressive scanning can lead to IP bans or legal actions.
 
 ## Setup
 1. Clone this repository to your local machine.
 ```sh
-git clone <(https://github.com/duttatreyo/Subdomain-Scraper)>
+git clone (https://github.com/duttatreyo/Subdomain-Scraper)
 ```
 
 

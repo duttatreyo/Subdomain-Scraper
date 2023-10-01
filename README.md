@@ -24,3 +24,13 @@ git clone <repository-url>
 
 cd <project-directory>
 pip install -r requirements.txt
+
+
+Usage
+To run the script, navigate to the project directory in the terminal and run:
+python subdomain_finder.py
+
+Follow the on-screen prompt and enter the domain for which you want to find subdomains and scrape public data.
+
+## Disclaimer
+Use this script responsibly and ethically. Make sure to comply with legal constraints and the terms of service of the websites you are interacting with. Unauthorized or aggressive scanning can lead to IP bans or legal actions.

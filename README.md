@@ -32,6 +32,7 @@ git clone (https://github.com/duttatreyo/Subdomain-Scraper)
 To run the script, navigate to the project directory in the terminal and run:
 ```$python subdomain_finder.py```
 
+### Follow the on-screen prompt and enter the domain for which you want to find subdomains and scrape public data.
 
 ## Important Note
 To log restrictions from 'robots.txt', incorporate the following line 
@@ -49,6 +50,6 @@ under `except requests.RequestException:`
 
 
             
-## Follow the on-screen prompt and enter the domain for which you want to find subdomains and scrape public data.
+
 
 

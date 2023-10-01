@@ -35,8 +35,10 @@ To run the script, navigate to the project directory in the terminal and run:
 
 ## NOTE
  To print restriction from 'robots.txt' add the line
- ```print(f"Skipping {url} due to robots.txt restrictions")``` under Dissallow in function `check_domain`
+ ```print(f"Skipping {url} due to robots.txt restrictions")``` under `if 'Disallow: /' in robots_response.text:` in function `check_domain`
+ 
  AND
+ 
 under `except requests.RequestException`
             ```print(f"Error accessing {url}: {str(e)}")``` 
 

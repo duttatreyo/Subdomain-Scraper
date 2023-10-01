@@ -23,7 +23,7 @@ Use this script responsibly and ethically. Make sure to comply with legal constr
 ## Setup
 1. Clone this repository to your local machine.
 ```sh
-git clone <repository-url>
+git clone <(https://github.com/duttatreyo/Subdomain-Scraper)>
 ```
 
 
@@ -32,6 +32,6 @@ Usage
 To run the script, navigate to the project directory in the terminal and run:
 ```$python subdomain_finder.py```
 
-# Follow the on-screen prompt and enter the domain for which you want to find subdomains and scrape public data.
+### Follow the on-screen prompt and enter the domain for which you want to find subdomains and scrape public data.
 
 

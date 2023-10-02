@@ -28,11 +28,11 @@ def check_subdomain(domain, subdomain):
         url = f'{protocol}{subdomain}.{domain}'
         try:
             # Respect robots.txt and don't scrape disallowed pages
-            robots_url = f'{protocol}{subdomain}.{domain}/robots.txt'
-            robots_response = requests.get(robots_url, headers={"User-Agent": user_agent}, timeout=5)
-            if 'Disallow: /' in robots_response.text:
+            #robots_url = f'{protocol}{subdomain}.{domain}/robots.txt'
+            #robots_response = requests.get(robots_url, headers={"User-Agent": user_agent}, timeout=5)
+           #if 'Disallow: /' in robots_response.text:
                 # Quietly skip due to robots.txt restrictions
-                continue
+               # continue
 
             response = requests.get(url, headers={"User-Agent": user_agent}, timeout=5)
             if response.ok:
